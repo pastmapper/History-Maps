@@ -5,107 +5,132 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>History Maps</title>
   <style>
-    body { font-family: Georgia, "Times New Roman", Times, serif; margin: 40px; line-height: 1.55; color:#1f2937; }
-    .btn { display:inline-block; padding:10px 14px; border-radius:10px; background:#1b4d9b; color:#fff; text-decoration:none; font-weight:700; }
-    .muted { color:#374151; font-size: 16px; }
-    .card { max-width: 900px; background:#fff; border:1px solid #e5e7eb; border-radius:12px; padding:18px; }
+    body {
+      font-family: Georgia, "Times New Roman", Times, serif;
+      margin: 40px;
+      line-height: 1.55;
+      color: #1f2937;
+    }
+
+    .card {
+      max-width: 900px;
+      background: #fff;
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 18px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 14px;
+      border-radius: 10px;
+      background: #1b4d9b;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .muted {
+      color: #374151;
+      font-size: 16px;
+    }
+
     .important {
-  margin-top: 12px;
-  padding: 12px;
-  border-left: 5px solid #1b4d9b;
-  background: #eef3fb;
-  font-size: 17px;
-}
-.map-block {
-  margin-top: 22px;
-  padding-top: 10px;
-  border-top: 1px solid #e5e7eb;
-}
+      margin-top: 12px;
+      padding: 12px;
+      border-left: 5px solid #1b4d9b;
+      background: #eef3fb;
+      font-size: 17px;
+    }
 
-.map-title {
-  margin-bottom: 8px;
-}
+    .map-block {
+      margin-top: 22px;
+      padding-top: 10px;
+      border-top: 1px solid #e5e7eb;
+    }
 
-.map-actions {
-  margin: 8px 0 6px 0;
-}
+    .map-title {
+      margin-bottom: 8px;
+    }
 
-.map-note {
-  margin-top: 10px;
-}
+    .map-actions {
+      margin: 8px 0 6px 0;
+    }
+
+    .map-note {
+      margin-top: 10px;
+    }
 
     ul li {
-  font-size: 17px;
-  margin-bottom: 6px;
-}
-h3 {
-  margin-top: 20px;
-}
+      font-size: 17px;
+      margin-bottom: 6px;
+    }
 
+    h2 {
+      margin-top: 26px;
+    }
+
+    h3 {
+      margin-top: 20px;
+    }
   </style>
 </head>
+
 <body>
   <div class="card">
     <h1>History Maps</h1>
     <p class="muted">Interactive maps based on historical land records and settlement data.</p>
 
-   <div class="map-block">
-  <h2 class="map-title">Clear Lake Webmap</h2>
+    <div class="map-block">
+      <h2 class="map-title">Clear Lake Webmap</h2>
 
-  <div class="map-actions">
-    <a class="btn" href="./clearlake/">Open the Interactive Map</a>
-  </div>
+      <div class="map-actions">
+        <a class="btn" href="./clearlake/">Open the Interactive Map</a>
+      </div>
 
-  <div class="important map-note">
-    <strong>Important:</strong> When you click a patent record, it opens in a <strong>new browser tab</strong>.
-    Close that tab to return to the map.
-  </div>
+      <div class="important map-note">
+        <strong>Important:</strong> When you click a patent record, it opens in a <strong>new browser tab</strong>.
+        Close that tab to return to the map.
+      </div>
 
-  <h3>How to use</h3>
-  <ul>
-    <li>Click a colored parcel to see the claimant name, patent date, and patent type.</li>
-    <li>Use the layer list/legend to turn claim types on or off.</li>
-    <li>Patent links open in a new browser tab; close the patent tab to return to the map.</li>
-  </ul>
+      <h3>How to use</h3>
+      <ul>
+        <li>Click a colored parcel to see the claimant name, patent date, and patent type.</li>
+        <li>Use the layer list/legend to turn claim types on or off.</li>
+        <li>Patent links open in a new browser tab; close the patent tab to return to the map.</li>
+      </ul>
 
-  <!-- your polished Scope and limitations block stays right here -->
-</div>
+      <h3>Scope and limitations</h3>
+      <p>
+        This map shows selected early federal land claims in the Clear Lake study area based on records from the
+        Bureau of Land Management (BLM) General Land Office.
+      </p>
 
+      <p>The map includes three types of land patents:</p>
+      <ul>
+        <li>Homestead claims</li>
+        <li>Purchased land (Cash Entry)</li>
+        <li>Military and Scrip Warrant claims</li>
+      </ul>
 
-<h3>Scope and limitations</h3>
+      <p>
+        It does not represent all federal land patent authorities or all land transfers that occurred in the area.
+      </p>
 
-<p>
-This map shows selected early federal land claims in the Clear Lake study area based on records from the Bureau of Land Management (BLM) General Land Office.
-</p>
+      <p>
+        Parcel boundaries are approximate and are intended for historical visualization and educational use only.
+        This map should not be used for legal or surveying purposes.
+      </p>
+    </div>
 
-<p>
-The map includes three types of land patents:
-</p>
+    <h2>More maps coming soon</h2>
+    <p class="muted">
+      Additional historical map projects will be added here as they are completed.
+    </p>
 
-<ul>
-  <li>Homestead claims</li>
-  <li>Purchased land (Cash Entry)</li>
-  <li>Military and Scrip Warrant claims</li>
-</ul>
-
-<p>
-It does not represent all federal land patent authorities or all land transfers that occurred in the area.
-</p>
-
-<p>
-Parcel boundaries are approximate and are intended for historical visualization and educational use only. This map should not be used for legal or surveying purposes.
-</p>
-
-<h2>More maps coming soon</h2>
-<p class="muted">
-Additional historical map projects will be added here as they are completed.
-</p>
-
-<p class="muted">
-Created by Corrinne Sande, 2026.
-</p>
-   
-
+    <p class="muted">
+      Created by Corrinne Sande, 2026.
+    </p>
 
     <hr />
     <p class="muted">
