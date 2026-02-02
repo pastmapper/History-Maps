@@ -18,4 +18,4 @@ Zoom and pan to explore the map
 
 Use the legend to turn claim types on and off
 
-Click a parcel to view details and open the original patent record
+Click a parcel to view details and open the original patent record.
